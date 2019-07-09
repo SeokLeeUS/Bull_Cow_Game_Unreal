@@ -49,7 +49,7 @@ Unreal game development C++ practice
 
   - ```GetMaxTries () const {return MyMaxTries;}: const``` is a protective method not allowing the change the value outside of where it’s defined and originated, but it only works with a function inside of a custom class. [Udemy response] It prevents data members from being modified, which is why it's only for member functions and has no meaning for non-member functions.
 
-View>Task List will list down comment with TODO (to add token). Utilize task list (view + task list) to know the remaining TODO.
+  - View>Task List will list down comment with TODO (to add token). Utilize task list (view + task list) to know the remaining TODO.
 
   - @ VS 2017, in order to replace a variable, hit Ctrl+R x2
 
