@@ -26,7 +26,7 @@ Unreal game development C++ practice
 
 · Grab lines of code and right click> Quick Actions (or Ctrl+ “+”) from header, it will create a function cpp file and function codes, automatically.
 
-· ‘ ‘ is for character, “ “ is for string.
+· ```' '``` is for character, ```" "``` is for string.
 
 · When you search syntax, MSDN.microsoft.com could be useful than c ++ plus.com.
 
@@ -46,10 +46,9 @@ Unreal game development C++ practice
 
 · Do not trust compiler completely. In case unexpected result pops, rebuild solution.
 
-· Class instance can be called at any function (including main function) when it is located at pre-processing directive (where #include is located).
-![class_definition](https://github.com/SeokLeeUS/Bull_Cow_Game_Unreal/raw/master/_image/class_definition.png)
+· Class instance can be called at any function (including main function) when it is located at the pre-processing directive (where #include is located). ![class_definition](https://github.com/SeokLeeUS/Bull_Cow_Game_Unreal/raw/master/_image/class_definition.png)
 
-· ```GetMaxTries () const {return MyMaxTries;}: const``` is protective method not allowing the change the value outside of where it’s defined and originated, but it only works with a function inside of a custom class.
+· ```GetMaxTries () const {return MyMaxTries;}: const``` is a protective method not allowing the change the value outside of where it’s defined and originated, but it only works with a function inside of a custom class. [Udemy response] It prevents data members from being modified, which is why it's only for member functions and has no meaning for non-member functions.
 
 View>Task List will list down comment with TODO (to add token). Utilize task list (view + task list) to know the remaining TODO.
 
@@ -82,8 +81,6 @@ View>Task List will list down comment with TODO (to add token). Utilize task lis
 
 - The following tip is from triple X lecture (mainly tips for Visual Code (VC)):
 
-
-
 · If there’s a white space on VS, it can still compile.
 
 · Have a good habit to “Auto Save” from file>Auto save @ VC.
@@ -96,6 +93,6 @@ View>Task List will list down comment with TODO (to add token). Utilize task lis
 
 · ``<<`` is called  as “insertion operator”, ```>>``` as  “extraction operator” with ```#include <iostream>```
 
-· After putting a statement (i.e. if), then hit “tab” button, it will auto formatting the rest of statement (handy!!)
+· After putting a statement (i.e. if), then hit the “tab” key, it will auto format the rest of statement (handy!!)
 
-· Highlight lines of code, then Ctrl+/ will comment out the lines of code, automatically (handy!)
+· Highlight lines of code, then Ctrl + / will comment out the lines of code, automatically (handy!)
