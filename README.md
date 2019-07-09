@@ -45,7 +45,7 @@ Unreal game development C++ practice
 
   - Do not trust compiler completely. In case unexpected result pops, rebuild the solution.
 
-  - Class instance can be called at any function (including main function) when it is located area where the pre-processing directive resides (where ```#include``` is located). Please refer to (this)(https://www.quora.com/How-are-C++-class-instances-created)
+  - Class instance can be called at any function (including main function) when it is located area where the pre-processing directive resides (where ```#include``` is located). Please refer to [this](https://www.quora.com/How-are-C++-class-instances-created)
   ![class_definition](https://github.com/SeokLeeUS/Bull_Cow_Game_Unreal/raw/master/_image/class_definition.png)
 
   - ```GetMaxTries () const {return MyMaxTries;}: const``` is a protective method not allowing the change the value outside of where it’s defined and originated, but it only works with a function inside of a custom class. [Udemy response] It prevents data members from being modified, which is why it's only for member functions and has no meaning for non-member functions.
