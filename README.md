@@ -86,7 +86,7 @@ Unreal game development C++ practice
 
   - Preprocessor Directive (I don’t know why name it is quite complicate), but basically, instruct the compiler to include (```#include```) a library before compiling the code. 
   
-  [Udemy response] It's called "preproccessor directive" because it's a directive (instruction) to the preproccessor which is something that is run before compilation. ```#include``` is a just a copy and paste.
+    [Udemy response] It's called "preproccessor directive" because it's a directive (instruction) to the preproccessor which is something that is run before compilation. ```#include``` is a just a copy and paste.
 
   - When changing a variable name in multiple locations, right click on the variable name @ VC, then select “change all occurrences” (or <kbd>ctrl</kbd>+<kbd>F2</kbd>)
 
