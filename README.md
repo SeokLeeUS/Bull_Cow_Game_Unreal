@@ -20,7 +20,7 @@ Unreal game development C++ practice
 
   - Constexpr vs Const? If you define a constant using constexpr, the constant value will be known at compile not at the run time.
   
-   [Udemy response] That's technically not guaranteed that it will be evaluated at compile time just that it can be. Though general rule is just constexpr > const > nothing. Use what compiles.
+    [Udemy response] That's technically not guaranteed that it will be evaluated at compile time just that it can be. Though general rule is just constexpr > const > nothing. Use what compiles.
 
   - Good practice is to put the constant in all CAPITAL. [Udemy response] That's kind of an old practice , ALL_CAPS is basically only used for macros these days as it's loud and noisy which is what you want macros to be.
 
