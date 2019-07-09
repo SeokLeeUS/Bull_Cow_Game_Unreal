@@ -45,7 +45,8 @@ Unreal game development C++ practice
 
   - Do not trust compiler completely. In case unexpected result pops, rebuild the solution.
 
-  - Class instance can be called at any function (including main function) when it is located at the pre-processing directive (where ```#include``` is located). ![class_definition](https://github.com/SeokLeeUS/Bull_Cow_Game_Unreal/raw/master/_image/class_definition.png)
+  - Class instance can be called at any function (including main function) when it is located area where the pre-processing directive resides (where ```#include``` is located). Please refer to (this)(https://www.quora.com/How-are-C++-class-instances-created)
+  ![class_definition](https://github.com/SeokLeeUS/Bull_Cow_Game_Unreal/raw/master/_image/class_definition.png)
 
   - ```GetMaxTries () const {return MyMaxTries;}: const``` is a protective method not allowing the change the value outside of where it’s defined and originated, but it only works with a function inside of a custom class. [Udemy response] It prevents data members from being modified, which is why it's only for member functions and has no meaning for non-member functions.
 
@@ -55,7 +56,7 @@ Unreal game development C++ practice
 
   - Debugger, highlight the condition which you want to examine further, then <kbd> right click </kbd> <kbd>watch</kbd> during debugging (but make sure you are not at “pause” in debugging mode (next to debugger stop button)
 
-  - Try to store reference instead of result. You can always get an instance of result from the reference (i.e. birthday(reference) vs. age). Until proven otherwise, don’t store result. The data locality (game programming patterns)
+  - Try to store reference instead of the result. You can always get an instance of   the result from the reference (i.e. birthday(reference) vs. age). Until proven otherwise, don’t store the result. The data locality (game programming patterns)
 
   - ```enum``` member is global, if you define two different enums, and same member name (i.e. ```OK```) on both place, it will throw the error. In order to fix this, define  ```enum class``` instead of ```enum```.
 
