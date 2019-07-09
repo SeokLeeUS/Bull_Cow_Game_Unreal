@@ -57,16 +57,16 @@ View>Task List will list down comment with TODO (to add token). Utilize task lis
 
   - Try to store reference instead of result. You can always get an instance of result from the reference (i.e. birthday(reference) vs. age). Until proven otherwise, don’t store result. The data locality (game programming patterns)
 
-  - Enum member is global, if you define two different enums, and same member name (i.e. OK) on both place, it will throw the error. In order to fix this, define enum as enum class.
+  - ```enum``` member is global, if you define two different enums, and same member name (i.e. OK) on both place, it will throw the error. In order to fix this, define  ```enum class``` instead of ```enum```.
 
   - Accessing enum is ```::```.
 
   - When declaring a function, it doesn’t require an input variable name, but when defining the function in cpp source code, supply the variable name as an input handle.
 
-  - ```#define``` is preprocessor directive to tell the pre-processor to create macro. (usage: #define TMap std::map). 
+  - ```#define``` is preprocessor directive to tell the pre-processor to create macro. (usage: ```#define TMap std::map```). 
 [compiler vs pre-processor](https://www.quora.com/What-is-the-difference-between-a-compiler-directive-and-a-preprocessor-in-C)
 
-  - When you select the data type “auto”, the compiler sets the datatype automatically.
+  - When you select the data type ```auto```, the compiler sets the datatype automatically.
 
   - Range for loop ```for (auto Letter : Word)```
 
@@ -75,7 +75,6 @@ View>Task List will list down comment with TODO (to add token). Utilize task lis
   - Function resides in main.cpp which is outside of class definition (header/and function definition cpp file) is called as prototype.
 
   - When you share source codes, share only main.cpp, header(.h) and source code(.cpp) of the class definition with others.
-
 
 
 - The following tip is from triple X lecture (mainly tips for Visual Code (VC)):
