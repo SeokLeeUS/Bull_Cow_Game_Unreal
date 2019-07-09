@@ -21,7 +21,7 @@ Unreal game development C++ practice
 
   - Good practice is to put the constant in all CAPITAL. [Udemy response] That's kind of an old practice , ALL_CAPS is basically only used for macros these days as it's loud and noisy which is what you want macros to be.
 
-  - always try to put return on your function (even if there’s no value to return back). It's a good practice to declare a custom function after main function, but calling the custom function before main function. [Udemy response] That's not really necessary and kind of odd that Ben did that.
+  - Always try to put return on your function (even if there’s no value to return back). It's a good practice to declare a custom function after main function, but calling the custom function before main function. [Udemy response] That's not really necessary and kind of odd that Ben did that.
 
   - Grab lines of code and <kbd>right click</kbd> > <kbd>Quick Actions</kbd> (or <kbd>Ctrl</kbd>+ <kbd>+</kbd>) from header, it will create a function cpp file and function codes, automatically.
 
@@ -45,7 +45,7 @@ Unreal game development C++ practice
 
   - Do not trust compiler completely. In case unexpected result pops, rebuild the solution.
 
-  - Class instance can be called at any function (including main function) when it is located area where the pre-processing directive resides (where ```#include``` is located). Please refer to [this](https://www.quora.com/How-are-C++-class-instances-created)
+  - Class instance can be called at any function (including main function) when it is located area where the pre-processing directive resides (where ```#include``` is located).  BCGame is an instance of the class FBullCowGame. Please refer to [this](https://www.quora.com/How-are-C++-class-instances-created) about class instance. 
   ![class_definition](https://github.com/SeokLeeUS/Bull_Cow_Game_Unreal/raw/master/_image/class_definition.png)
 
   - ```GetMaxTries () const {return MyMaxTries;}: const``` is a protective method not allowing the change the value outside of where it’s defined and originated, but it only works with a function inside of a custom class. [Udemy response] It prevents data members from being modified, which is why it's only for member functions and has no meaning for non-member functions.
