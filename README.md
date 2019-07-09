@@ -30,7 +30,7 @@ Unreal game development C++ practice
 
 · When you search syntax, MSDN.microsoft.com could be useful than c ++ plus.com.
 
-· Please refer to Unreal coding standard  
+· Please refer to [Unreal coding standard](https://docs.unrealengine.com/en-US/Programming/Development/CodingStandard/index.html)  
 
 · General pattern of Object Oriented Programming (OOP) is we don’t expose any variables publicly.
 
@@ -81,11 +81,11 @@ View>Task List will list down comment with TODO (to add token). Utilize task lis
 
 - The following tip is from triple X lecture (mainly tips for Visual Code (VC)):
 
-· If there’s a white space on VS, it can still compile.
+· If there’s a white space on VS or VC, it can still compile.
 
 · Have a good habit to “Auto Save” from file>Auto save @ VC.
 
-· Preprocessor Directive (I don’t know why name it so complicate), but basically, instruct the compiler to include a library before compiling (```#include```)
+· Preprocessor Directive (I don’t know why name it is quite complicate), but basically, instruct the compiler to include (```#include```) a library before compiling the code [Udemy response] It's called "preproccessor directive" because it's a directive (instruction) to the preproccessor which is something that is run before compilation. #include is a just a copy and paste.
 
 · When changing a variable name in multiple locations, right click on the variable name @ VC, then select “change all occurrences” (or ctrl+F2)
 
