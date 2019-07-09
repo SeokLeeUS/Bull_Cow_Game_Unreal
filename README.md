@@ -41,7 +41,7 @@ Unreal game development C++ practice
 
   - 'Instantiation' is to set a variable for the class. Ex) ```FBullCowGame Player1Game```; ```FBullCowGame Player2Game```; (two instances are separate and independently running)
 
-  - If you want to look for function definition/declaration from main source code, right click> go to definition (<kbd>F12</kbd>) or go to declaration (<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>F12</kbd>) will direct you to function source code/header file. 
+  - If you want to look for function definition/declaration from main source code, <kbd>right click</kbd> > go to definition (<kbd>F12</kbd>) or go to declaration (<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>F12</kbd>) will direct you to function source code/header file. 
 
   - Do not trust compiler completely. In case unexpected result pops, rebuild the solution.
 
@@ -53,11 +53,11 @@ Unreal game development C++ practice
 
   - @ VS 2017, in order to replace a variable, hit <kbd>ctrl</kbd>+<kbd>r</kbd> x2
 
-  - Debugger, highlight the condition which you want to examine further, then kbd>right click</kbd> <kbd>watch</kbd> during debugging (but make sure you are not at “pause” in debugging mode (next to debugger stop button)
+  - Debugger, highlight the condition which you want to examine further, then <kbd> right click </kbd> <kbd>watch</kbd> during debugging (but make sure you are not at “pause” in debugging mode (next to debugger stop button)
 
   - Try to store reference instead of result. You can always get an instance of result from the reference (i.e. birthday(reference) vs. age). Until proven otherwise, don’t store result. The data locality (game programming patterns)
 
-  - ```enum``` member is global, if you define two different enums, and same member name (i.e. OK) on both place, it will throw the error. In order to fix this, define  ```enum class``` instead of ```enum```.
+  - ```enum``` member is global, if you define two different enums, and same member name (i.e. ```OK```) on both place, it will throw the error. In order to fix this, define  ```enum class``` instead of ```enum```.
 
   - Accessing enum is ```::```.
 
