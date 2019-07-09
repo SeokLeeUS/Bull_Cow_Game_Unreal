@@ -65,7 +65,7 @@ Unreal game development C++ practice
   - When declaring a function, it doesn’t require an input variable name, but when defining the function in cpp source code, supply the variable name as an input handle.
 
   - ```#define``` is preprocessor directive to tell the pre-processor to create macro. (usage: ```#define TMap std::map```). 
-[compiler vs pre-processor](https://www.quora.com/What-is-the-difference-between-a-compiler-directive-and-a-preprocessor-in-C)
+  Please refer to [compiler vs pre-processor](https://www.quora.com/What-is-the-difference-between-a-compiler-directive-and-a-preprocessor-in-C)
 
   - When you select the data type ```auto```, the compiler sets the datatype automatically.
 
