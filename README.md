@@ -27,7 +27,7 @@ Unreal game development C++ practice
 
   - ```' '``` is for character, ```" "``` is for string.
 
-  - When you search syntax, MSDN.microsoft.com could be useful than c ++ plus.com.
+  - When you search syntax, [MSDN](MSDN.microsoft.com) could be useful than [cplusplus site](cplusplus.com).
 
   - Please refer to [Unreal coding standard](https://docs.unrealengine.com/en-US/Programming/Development/CodingStandard/index.html)  
 
