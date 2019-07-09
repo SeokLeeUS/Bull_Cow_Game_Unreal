@@ -15,7 +15,7 @@ Unreal game development C++ practice
 
 · When you see warning message saying “console exit with zero” for compiling (@ VS 2017, ctrl+F5) , Go to debug>options>general> tick the box saying “automatically close the console when debugging stops”
 
-· \n is called new line.
+· ```\n``` is called new line.
 
 · Constexpr vs Const? If you define a constant using constexpr, the constant value will be known at compile not at the run time.
 [Udemy response] That's technically not guaranteed that it will be evaluated at compile time just that it can be. Though general rule is just constexpr > const > nothing. Use what compiles.
