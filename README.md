@@ -8,7 +8,9 @@ Unreal game development C++ practice
 
   - @ Visual Studio (VS), set the solution name separately while choosing a project name when you create a new project. The solution is inclusive of projects. You can have multiple projects under a solution.
 
-  - @VS 2017, after creating a project from an “empty” application, go to project property to set linker>subsystem as “console”. [Udemy response] The main reason for doing it this way was to avoid having to explain or what precompiled headers are which was enabled by default if you chose to use the Console Application project template. This is no longer enabled by default in VS 2019 so if it were to be redone today, we would just use that template.
+  - @VS 2017, after creating a project from an “empty” application, go to project property to set linker>subsystem as “console”. 
+  
+    [Udemy response] The main reason for doing it this way was to avoid having to explain or what precompiled headers are which was enabled by default if you chose to use the Console Application project template. This is no longer enabled by default in VS 2019 so if it were to be redone today, we would just use that template.
 
   - Create a main C++ source flie by right-click on project name.
 
@@ -48,7 +50,8 @@ Unreal game development C++ practice
   - Class instance can be called at any function (including main function) when it is located area where the pre-processing directive resides (where ```#include``` is located).  BCGame is an instance of the class FBullCowGame. Please refer to [this](https://www.quora.com/How-are-C++-class-instances-created) about class instance. 
   ![class_definition](https://github.com/SeokLeeUS/Bull_Cow_Game_Unreal/raw/master/_image/class_definition.png)
 
-  - ```GetMaxTries () const {return MyMaxTries;}: const``` is a protective method not allowing the change the value outside of where it’s defined and originated, but it only works with a function inside of a custom class. [Udemy response] It prevents data members from being modified, which is why it's only for member functions and has no meaning for non-member functions.
+  - ```GetMaxTries () const {return MyMaxTries;}: const``` is a protective method not allowing the change the value outside of where it’s defined and originated, but it only works with a function inside of a custom class. 
+    [Udemy response] It prevents data members from being modified, which is why it's only for member functions and has no meaning for non-member functions.
 
   - @VS, <kbd>View</kbd> <kbd>Task List</kbd> will list down comment with ```TODO``` (to add token). Utilize task list (<kbd>view</kbd> + <kbd>task list</kbd>) to know the remaining ```TODO```.
 
@@ -65,7 +68,7 @@ Unreal game development C++ practice
   - When declaring a function, it doesn’t require an input variable name, but when defining the function in cpp source code, supply the variable name as an input handle.
 
   - ```#define``` is preprocessor directive to tell the pre-processor to create macro. (usage: ```#define TMap std::map```). 
-  Please refer to [compiler vs pre-processor](https://www.quora.com/What-is-the-difference-between-a-compiler-directive-and-a-preprocessor-in-C)
+  Please refer to [compiler vs pre-processor](https://www.quora.com/What-is-the-difference-between-a-compiler-directive-and-a-preprocessor-in-C).
 
   - When you select the data type ```auto```, the compiler sets the datatype automatically.
 
